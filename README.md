@@ -2,11 +2,11 @@
 [Edpuzzle](https://edpuzzle.org) Recon created by Eric Wang 
 
 
-Gives you useful information pertaining to your Edpuzzle
-    - Multiple Choice or Open-Ended
-    - Timestamp
-    - Question
-    - Answer Choices
+Gives you useful information pertaining to your Edpuzzle  
+    - Multiple Choice or Open-Ended  
+    - Timestamp  
+    - Question  
+    - Answer Choices  
 
 1. Insert original Edpuzzle url in the form of `https://edpuzzle.com/assignments/ASSIGNMENT_ID/watch`  
 2. Navigate to the link given from the console  
