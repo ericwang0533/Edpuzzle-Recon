@@ -8,6 +8,7 @@
     - Question  
     - Answer Choices  
 
+
 1. Insert original Edpuzzle url in the form of `https://edpuzzle.com/assignments/ASSIGNMENT_ID/watch`  
 2. Navigate to the link given from the console  
 3. Ctrl-A, Ctrl-C the text from the webpage  
