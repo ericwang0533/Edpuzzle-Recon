@@ -1,5 +1,5 @@
 # Edpuzzle-Recon
-[Edpuzzle](https://edpuzzle.com) Recon created by Eric Wang 
+[Edpuzzle](https://edpuzzle.com) Recon created by Eric Wang  
 \
 
 - Gives you useful information pertaining to your Edpuzzle  
