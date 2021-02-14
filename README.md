@@ -1,8 +1,15 @@
 # Edpuzzle-Recon
-Edpuzzle Recon created by Eric Wang
+[Edpuzzle](https://edpuzzle.org) Recon created by Eric Wang 
 
-Insert original edpuzzle url in the form of "https://edpuzzle.com/assignments/ASSIGNMENT_ID/watch"  
-Navigate to the link given from the console  
-Ctrl-A, Ctrl-C the text from the webpage  
-Paste that text into the console  
-Open up recon.txt  
+
+Gives you useful information pertaining to your Edpuzzle
+    - Multiple Choice or Open-Ended
+    - Timestamp
+    - Question
+    - Answer Choices
+
+1. Insert original Edpuzzle url in the form of `https://edpuzzle.com/assignments/ASSIGNMENT_ID/watch`  
+2. Navigate to the link given from the console  
+3. Ctrl-A, Ctrl-C the text from the webpage  
+4. Paste that text into the console  
+5. Open up recon.txt  
