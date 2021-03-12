@@ -37,9 +37,10 @@ public class edpuzzle{
         		finalSeconds = seconds1;
         	}
         	
-        	String time = finalMins + ":" + finalSeconds;        	
+        	String time = finalMins + ":" + finalSeconds;       
+        	System.out.println(Arrays.toString(brr) + "\n " + brr.length);
         	String question = brr[4].replace("\"html\":\"<p>", "").replaceAll("&nbsp;", "").replaceAll("&#39;", "'").replaceAll("&quot;", "\"").replaceAll("</p>\"", "");
-        	if((i == arr.length-1 && brr.length == 29) || brr.length == 10) {
+        	if((i == arr.length-1 && brr.length == 29 || brr.length == 34) || brr.length == 10 || brr.length == 11) {
         		out.println("Open-Ended at: " + time);
         		out.println(question);
         	}
