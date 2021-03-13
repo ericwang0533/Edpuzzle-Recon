@@ -10,6 +10,8 @@
 
 <br>
 
+[Demonstration Video](https://www.youtube.com/watch?v=FF0-C-svOEY): https://www.youtube.com/watch?v=FF0-C-svOEY
+
 1. Clone the repo and run the `edpuzzle.java` file w/ Java
 2. Insert Edpuzzle url into the console in the form of `https://edpuzzle.com/assignments/ASSIGNMENT_ID/watch`  
 3. Navigate to the new link from the console (`https://edpuzzle.com/api/v3/assignments/ASSIGNMENT_ID`)
