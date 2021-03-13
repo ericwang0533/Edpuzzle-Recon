@@ -9,8 +9,8 @@ public class edpuzzle{
         String assignmentUrl = in.nextLine();
         PrintWriter out = new PrintWriter(new File("recon.txt"));
         String id = assignmentUrl.substring(33, assignmentUrl.length()-6);
-        System.out.println("url: https://edpuzzle.com/api/v3/assignments/" + id);
-        System.out.println("Enter Edpuzzle Info: ");
+        System.out.println("Navigate to this link: https://edpuzzle.com/api/v3/assignments/" + id);
+        System.out.println("Copy Info from the Webpage and Enter Here: ");
         String body = in.nextLine();
         in.close();
         
@@ -38,7 +38,7 @@ public class edpuzzle{
         	}
         	
         	String time = finalMins + ":" + finalSeconds;       
-        	System.out.println(Arrays.toString(brr) + "\n " + brr.length);
+//        	System.out.println(Arrays.toString(brr) + "\n " + brr.length);
         	String question = brr[4].replace("\"html\":\"<p>", "").replaceAll("&nbsp;", "").replaceAll("&#39;", "'").replaceAll("&quot;", "\"").replaceAll("</p>\"", "");
         	if((i == arr.length-1 && brr.length == 29 || brr.length == 34) || brr.length == 10 || brr.length == 11) {
         		out.println("Open-Ended at: " + time);
